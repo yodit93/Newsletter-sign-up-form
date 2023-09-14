@@ -107,6 +107,22 @@ input::placeholder {
     margin-top: 3rem;
 }
 
+.error {
+    display: none;
+    float: right;
+    color: red;
+}
+
+.error.show{
+    display: inline;
+}
+
+.email.errorstate {
+    color: red;
+    border: 1px solid red;
+    background-color: rgb(255 219 213);
+}
+
 @media screen and (min-width: 1440px) {
    body {
     display: flex;
