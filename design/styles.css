@@ -144,4 +144,12 @@ input::placeholder {
    .sign-up-info {
     width: 50%;
    }
+
+   .success {
+    background-color: white;
+    width: 36%;
+    height: 55%;
+    border-radius: 41px;
+    padding: 2rem;
+   }
 }
