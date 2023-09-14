@@ -14,6 +14,18 @@ p {
     font-size: 16px;
 }
 
+#desktop-signup {
+    display: none;
+}
+
+figure {
+    width: 100%;
+}
+
+#mobile-signup {
+    width: 100%;
+}
+
 .sign-up-info {
     padding: 2rem 1rem;
 }
@@ -72,6 +84,11 @@ input::placeholder {
     font-size: 16px;
 }
 
+.form button:hover, .success button:hover
+.form button:active, .success button:active {
+    background-color: hsl(4, 100%, 67%);
+}
+
 .success {
     height: 100vh;
     display: flex;
@@ -87,5 +104,44 @@ input::placeholder {
 }
 
 .success .dismiss {
-    margin-top: 6rem;
+    margin-top: 3rem;
+}
+
+@media screen and (min-width: 1440px) {
+   body {
+    display: flex;
+    background-color: hsl(234, 29%, 20%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   }
+
+   #signup-page {
+    max-width: 62%;
+    padding: 2rem;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 31px;
+   }
+
+   figure {
+    order: 2;
+    height: 100%;
+    width: 40%;
+   }
+
+   #desktop-signup {
+    display: inline;
+    height: 100%;
+   }
+   
+   #mobile-signup {
+    display: none;
+   }
+   .sign-up-info {
+    width: 50%;
+   }
 }
