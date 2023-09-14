@@ -133,7 +133,7 @@ input::placeholder {
    }
 
    #signup-page {
-    max-width: 62%;
+    max-width: 65%;
     padding: 2rem;
     height: 65%;
     display: flex;
@@ -146,7 +146,7 @@ input::placeholder {
    figure {
     order: 2;
     height: 100%;
-    width: 40%;
+    width: 47%;
    }
 
    #desktop-signup {
